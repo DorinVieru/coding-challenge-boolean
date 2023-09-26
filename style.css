@@ -1,0 +1,72 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  height: 700px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.logo{
+  width: 200px;
+}
+
+.intestazione{
+  color: #00DD00;
+  margin-bottom: 5px;
+}
+
+.pulsanti{
+  background-color: #00DD00;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+h2{
+  display: inline-block;
+}
+
+div, .monopattini{
+  color: white;
+  margin-top: 15px;
+}
+
+div, .carica{
+  margin-top: 0px;
+  border-radius: 5px;
+}
+
+.carica-arancione{
+  width: 270px;
+  height: 25px;
+  background-color: orange;
+}
+
+.carica-verde{
+  width: 400px;
+  height: 25px;
+  background-color: green;
+}
+
+.carica-rossa{
+  width: 150px;
+  height: 25px;
+  background-color: red;
+}
